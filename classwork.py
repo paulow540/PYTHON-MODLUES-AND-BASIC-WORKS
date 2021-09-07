@@ -135,15 +135,15 @@ and we will surely succeed in it
 # print(fval)
  
  ##########################PERMUTATION CALCULATION###################
-def ref(x):
-    if x ==1:
-        return 1
-    else:
-        return(x * ref(x-1))
-num=int(input("ENTER>> "))
-den=int(input("ENTER>> "))
-okay = ref(num)/ref(num-den)
-print(okay)
+# def ref(x):
+#     if x ==1:
+#         return 1
+#     else:
+#         return(x * ref(x-1))
+# num=int(input("ENTER>> "))
+# den=int(input("ENTER>> "))
+# okay = ref(num)/ref(num-den)
+# print(okay)
 
 
 
@@ -212,23 +212,47 @@ print(okay)
 # else:
 #   print("i will not buy any food")
 
+# first_number = float(input("Enter your first number>>"))
+# operators = input("enter your operator>> ")
+# second_number = float(input("Enter your second number>> "))
+# if operators == "+":
+#     total = first_number + second_number
+#     print(total)
+# elif operators == "-":
+#     total = first_number - second_number
+#     print(total)
+# elif operators == "*":
+#     total = first_number * second_number
+#     print(total)
+# elif operators == "/":
+#     total = first_number / second_number
+#     print(total)
+# else:
+#     print("you enter a wrong operator")
+
 
 # # Python String Class
 # name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
+# print(name)
+# print(type(name))
 # print(name[2])
 # print(name[0:3])
 # print(len(name))
 # name2 = "shade"
+# value ="234567"
 # print(value[2])
-# # print(len(value))
+# print(len(value))
 # comment = """  commented that This is a python class. it was started 
 #           last week and still continue through
 #           this week. the number of people in this class is  """
+
+# print(comment)
 # print(len(comment))
 # print(comment[2])
 # print(comment[0:9])
-# print(comment[-1])
+# print(comment[-2])
 # print(comment[-30:-5])
+
 
 # String Methods
 # print(comment.startswith("commented"))
@@ -290,7 +314,7 @@ print(okay)
 # value = ["rice", "beans", "yam", "banana"]
 # print(" ".join(value))
 
-# Capitalize() function
+# # Capitalize() function
 # comment = """commented that This is a python class. it was started 
 #           last week and still continue through
 #           this week. the number of people in this class is  """
@@ -313,20 +337,21 @@ print(okay)
 # print(val)
 
 # Concatination
-# name = "paul"
-# num = 6
+name = "paul"
+num = 6
+
 
 
 # comment = f"""{name} commented that This is a python class. it was started 
 #           last week and still continue through
 #           this week. the number of people in this class is {num}"""
-# print(name + comment)
+# print( comment)
 # print(comment.format(name, num))
 # print(comment)
 
 
 # # Escape character
-# print('she\'s is the owner')
+# print('she\'s is the owner paul says and i qoute\" GOD IS GOOD \"')
 # print('she is the\b owner')
 # print('she is the\t owner')
 
@@ -985,10 +1010,10 @@ print(okay)
 
 # Python Database (Mysql)
 # To download mysql connector user: pip install mysql-connector
-import mysql.connector
-mycon = mysql.connector.connect(host='127.0.0.1', user='root', passwd='', database='cbtTest_db')
+# import mysql.connector
+# mycon = mysql.connector.connect(host='127.0.0.1', user='root', passwd='', database='cbtTest_db')
 
-mycursor = mycon.cursor()
+# mycursor = mycon.cursor()
 
 # mycursor.execute("CREATE DATABASE cbtTest_db")
 # mycursor.execute("SHOW DATABASES")
@@ -1071,16 +1096,19 @@ mycursor = mycon.cursor()
 # with open("filename", mode="rt") as myFile:
 
 # myFile = open("C:\\Users\\YEMI\\Documents\\pyhon code.txt", 'rt')
+# myFile = open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", 'rt')
 # print(myFile.read())
 # print(myFile.read(20))
 # print(myFile.readline())
+# print(myFile.readlines())
 # for i in range(20):
 #     print(myFile.readline())
 # for text in myFile:
 #     print(text)
 # myFile.close()
 
-# myFile = open("infile2.txt", 'a')
+# myFile = open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", 'rt')
+# print(myFile)
 # myFile.write("\n this is a new content to append to the old file")
 
 # myFile = open("infile2.txt", 'rt')
@@ -1095,18 +1123,18 @@ mycursor = mycon.cursor()
 # myFile.close()
 
 # using with open function
-# with open("infile.txt", mode="rt") as myFile:
+# with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 #     print(myFile.read())
 
 # import os
-# if os.path.exists("newfile.txt"):
-# 	with open("newfile.txt", mode="rt") as myFile:
+# if os.path.exists("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html"):
+# 	with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 # 		print(myFile.read())
 # else:
 # 	print("file does not exits")
 
-# if os.path.exists("infile2.txt"):
-#     os.remove("infile2.txt")
+# if os.path.exists("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html"):
+#     os.remove("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html")
 #     print("file deleted successfully")
 # else:
 #     print("file not available.")
@@ -1129,7 +1157,7 @@ mycursor = mycon.cursor()
 # print(homedir)
 
 # code to get the path of a file on your device
-# print(os.path.dirname(os.path.abspath("infile.txt")))
+# print(os.path.dirname(os.path.abspath("damilare.py")))
 
 
 # Python Error Handling
