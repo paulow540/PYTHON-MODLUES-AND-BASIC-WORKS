@@ -838,26 +838,26 @@ num = 6
 
 # def operation():
 #     global func
-#     print("""Enter your operation:
-#         1. addition
-#         2. subtraction
-#         3. division
-#         4. quit""")
-#     option = input(">>> ")
-#     if option=="1":
-#         func = "addition"
-#         addition()
-#     elif option=="2":
-#         func = "subtract"
-#         subtract()
-#     elif option=="3":
-#         func = "division"
-#         division()
-#     elif option=="4":
-#         sys.exit()
-#     else:
-#         print("Invalid input")
-#         operation()
+    # print("""Enter your operation:
+    #         1. addition
+    #         2. subtraction
+    #         3. division
+    #         4. quit""")
+    # option = input(">>> ")
+    # if option=="1":
+    #     func = "addition"
+    #     addition()
+    # elif option=="2":
+    #     func = "subtract"
+    #     subtract()
+    # elif option=="3":
+    #     func = "division"
+    #     division()
+    # elif option=="4":
+    #     sys.exit()
+    # else:
+    #     print("Invalid input")
+    #     operation()
 
 # def tryAgain():
 #     print("Enter 1. perform operation again, 2. go to menu")
@@ -896,72 +896,76 @@ num = 6
 # login()
 
 # Python Object Oriented Programming (OOP)
-# import time
-# class Car: 
-#     def __init__(self, owner, location):
-#         self.owner = owner
-#         self.location = location
-#         self.name = "Toyota"
-#         self.color = "Brown"
-#         self.brand = "2019 model"
-#         self.trafficator = "straight"
-#         self.tyre  = 4
-#         self.stiring = 1
-#         self.gear = "0"
-#         self.details()
+import time
+class Car: 
+    def __init__(self, owner, location):
+        self.owner = owner
+        self.location = location
+        self.name = "Toyota"
+        self.color = "Brown"
+        self.brand = "2019 model"
+        self.trafficator = "straight"
+        self.tyre  = 4
+        self.stiring = 1
+        self.gear = "0"
+        self.details()
 
-#     def details(self):
-#         print("This car is owned by "+self.owner+ " and is located in "+self.location)
-#         time.sleep(2)
-#         self.startEnging()
+    def details(self):
+        print("""
+            this function show how to calculate or all the details
+            about the car so i low using function 
+        """)
+        print("This car is owned by "+self.owner+ " and is located in "+self.location)
+        time.sleep(2)
+        self.startEnging()
 
-#     def startEnging(self):
-#         print("the enging is started")
-#         self.gear = input("Enter gear 1 to take off")
-#         if self.gear == "1":
-#             self.moveCar()
-#         else: 
-#             print("that is not the right gear to take off")
-#             self.startEnging()
+    def startEnging(self):
+        print("the enging is started")
+        self.gear = input("Enter gear 1 to take off")
+        if self.gear == "1":
+            self.moveCar()
+        else: 
+            print("that is not the right gear to take off")
+            self.startEnging()
 
-#     def moveCar(self):
-#         print(self.name+' is in gear '+self.gear +" and the car is moving "+ self.trafficator)
-#         self.driver = input("Press Y to change gear or D to chage direction or P to pack")
-#         if self.driver.upper() == "Y":
-#             self. changeSpeed()
-#         elif self.driver.upper() == "D":
-#             self.direction()
-#         elif self.driver.upper() == "P":
-#             self.park()
-#         else:
-#             self.moveCar()
+    def moveCar(self):
+        print(self.name+' is in gear '+self.gear +" and the car is moving "+ self.trafficator)
+        self.driver = input("Press Y to change gear or D to chage direction or P to pack")
+        if self.driver.upper() == "Y":
+            self. changeSpeed()
+        elif self.driver.upper() == "D":
+            self.direction()
+        elif self.driver.upper() == "P":
+            self.park()
+        else:
+            self.moveCar()
 
-#     def changeSpeed(self):   
-#         self.gear = input("Enter gear number ")
-#         if self.gear == "1":
-#            self.moveCar()
-#         elif self.gear == "2":
-#             self.moveCar()
-#         elif self.gear == "3":
-#             self.moveCar()
-#         elif self.gear == "4":
-#             self.moveCar()
+    def changeSpeed(self):   
+        self.gear = input("Enter gear number ")
+        if self.gear == "1":
+           self.moveCar()
+        elif self.gear == "2":
+            self.moveCar()
+        elif self.gear == "3":
+            self.moveCar()
+        elif self.gear == "4":
+            self.moveCar()
 
-#     def direction(self):
-#         self.trafficator = input("please enter your direction ")
-#         if self.trafficator.lower() == "straight":
-#             self.moveCar()
-#         elif self.trafficator.lower() == 'left':
-#             self.moveCar()
-#         elif self.trafficator.lower() == 'right':
-#             self.moveCar()
+    def direction(self):
+        self.trafficator = input("please enter your direction ")
+        if self.trafficator.lower() == "straight":
+            self.moveCar()
+        elif self.trafficator.lower() == 'left':
+            self.moveCar()
+        elif self.trafficator.lower() == 'right':
+            self.moveCar()
    
-#     def park(self):
-#         print('the car is parking now ...')
-#         time.sleep(2)
-#         print("The car has finished parking and appliction exited")
+    def park(self):
+        print('the car is parking now ...')
+        time.sleep(2)
+        print("The car has finished parking and appliction exited")
 
-# cr = Car("Smith", "Ogbomoso")
+cr = Car("Smith", "Ogbomoso")
 
 # Python Inheritance 
 # class Father:
@@ -994,19 +998,23 @@ num = 6
 
 # class GrandChild(Child):
 #     def __init__(self):
-#         super().__init__()
+#         # super().__init__()
 #         self.name = "Micheal"
+#         self.family_name = "oyo"
 
-# # ch = Child()
-# # print(ch.language)
-# # ch.walk()
+# ch = Child()
+# print(ch.language)
+# ch.walk()
 # gd = GrandChild()
 # gd.run()
 # gd.walk()
 
 # Python Module  
-# import os
-# print(dir(os))
+import os
+import sys
+import time
+# print(dir(time))
+# print(help())
 
 # Python Database (Mysql)
 # To download mysql connector user: pip install mysql-connector
