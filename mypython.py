@@ -22,5 +22,5 @@
 # import sys
 # print(sys.path)
 # import classwork
-from babatapope import call as my
-my("hello world")
+# from babatapope import call as my
+# my("hello world")

@@ -37,10 +37,12 @@ class Small_motor(Motor):
 # print(nam)
 
 
-def call(hello):
+def callcallcall(hello):
+    """this function is telling us how to add two numbers """
     first_number =int(input("Enter a number here>>"))
     second_number = int(input("Enter a number here>>"))
     total = first_number + second_number
+   
     print(total)
     print(hello)
 
