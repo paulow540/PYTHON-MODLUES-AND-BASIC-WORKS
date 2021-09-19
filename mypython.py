@@ -24,3 +24,15 @@
 # import classwork
 # from babatapope import call as my
 # my("hello world")
+
+# import mysql.connector 
+# mycon = mysql.connector.connect(host ="127.0.0.1",user ="root", passwd ="", database="" )
+
+# myall = mycon.cursor()
+
+# # myall.execute("CREATE DATABASE myicon_db")
+# myall.execute("SHOW DATABASES")
+# for i in myall:
+#     for x in i:
+#         print(x)
+

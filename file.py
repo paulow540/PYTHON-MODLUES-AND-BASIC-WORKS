@@ -54,7 +54,7 @@
 #   print(myFile.read())
 
 
-import os
+# import os
 # os.remove('newfile.txt') raise error if not exist
 # if os.path.exists('newfile.txt'):
 #   os.remove('newfile.txt')
@@ -116,6 +116,19 @@ import os
 # with open("Documents", mode='rt') as inFile:
 #   for files in inFile:
 #     os.remove(files)
+
+
+# code to get username of any system(pc)
+# import os.path
+# homedir = os.path.expanduser("~")
+# print(homedir)
+# code to get system environment
+# import os
+# homedir = os.environ["PATH"]
+# print(homedir)
+
+# code to get the path of a file on your device
+# print(os.path.dirname(os.path.abspath("damilare.py")))
 
 
 

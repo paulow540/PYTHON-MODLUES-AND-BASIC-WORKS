@@ -232,7 +232,7 @@ and we will surely succeed in it
 
 
 # # Python String Class
-# name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
+name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # print(name)
 # print(type(name))
 # print(name[2])
@@ -244,7 +244,7 @@ and we will surely succeed in it
 # print(len(value))
 # comment = """  commented that This is a python class. it was started 
 #           last week and still continue through
-#           this week. the number of people in this class is  """
+#           this week. the number of people in this class is   """
 
 # print(comment)
 # print(len(comment))
@@ -291,14 +291,16 @@ and we will surely succeed in it
 
 # Upper() function
 # value = "METHOD"
-# print(value.upper())
+# # print(value.upper())
 # user = input("please enter method to continue ")
-# if value == user.upper() :
+# if value == user.upper():
 #   print(user)
 # else: print("invalid input")
 
-# Replace() function
-
+# # Replace() function
+# comment = """  commented that This is a python class. it was started 
+#           last week and still continue through
+#           this week. the number of people in this class is   """
 # newval = comment.replace("commented", "started")
 # print(newval)
 
@@ -315,12 +317,14 @@ and we will surely succeed in it
 # print(" ".join(value))
 
 # # Capitalize() function
-# comment = """commented that This is a python class. it was started 
-#           last week and still continue through
-#           this week. the number of people in this class is  """
+comment = """commented that This is a python class. it was started 
+          last week and still continue through
+          this week. the number of people in this class is  """
 # print(name.capitalize())
 # print(comment.capitalize())
-
+# print(comment.title())
+# paul="i am coming\nopal"
+# print(paul)
 # Center() function
 # print(comment.center(10))   
 
@@ -361,10 +365,11 @@ num = 6
 #     set
 #     dictionary
 
-# List: is a collection which is ordered and changeable. A list is created with a square bracket [] or list() constructor.
-# my_list = ["Shade", "energy", "magnet", "Charse", "energy"]
-# my_list2 = list((12, 14, "Sunday", "Charse", True, False, 5.08))
-# my_list3 = [1, 45, 54, 23, 67, 78, 46]
+# List: is a collection which is ordered and changeable.
+#  A list is created with a square bracket [] or list() constructor.
+my_list = ["Shade", "energy", "magnet", "Charse", "energy"]
+my_list2 = list((12, 14, "Sunday", "Charse", True, False, 5.08))
+my_list3 = [1, 45, 54, 23, 67, 78, 46]
 
 # print(my_list2)
 # print(my_list[3])
@@ -383,7 +388,7 @@ num = 6
 #   print("not available")
 # my_list.append("tunde")
 # print(my_list)
-# my_list.insert(3, "tunde")
+# my_list.insert(1, "tunde")
 # print(my_list)
 # my_list.extend(my_list2)
 # print(my_list)
@@ -392,7 +397,7 @@ num = 6
 # print(my_list)
 # my_list.remove("energy")
 # print(my_list)
-# my_list2.pop(2)
+# my_list2.pop(3)
 # print(my_list2)
 # my_list2.pop()
 # print(my_list2)
@@ -404,7 +409,7 @@ num = 6
 # print(my_list3)
 # my_list3.sort(reverse=True)
 # print(my_list3)
-# my_list.sort(reverse=False, key=str.lower)
+# my_list.sort(reverse=True, key=str.lower)
 # print(my_list)
 # my_list2.reverse()
 # print(my_list2)
@@ -418,9 +423,10 @@ num = 6
 # print(max(my_list3))
 # print(min(my_list3))
 # print(my_list.index("magnet"))
-# my_list4 = [my_list, my_list2, ['Favour', 34], 'Tunde', False]
+# my_list4 = [my_list, my_list2,my_list, ['Favour', 34],my_list2, 'Tunde', False]
 # print(my_list4)
-# print(my_list4[1][1:3])
+# [['Shade', 'energy', 'magnet', 'Charse', 'energy'], [12, 14, 'Sunday', 'Charse', True, False, 5.08], ['Favour', 34], 'Tunde', False]
+# print(my_list4[2][1:3])
 
 # nt = 0
 # score = 0
@@ -1093,6 +1099,7 @@ num = 6
 # sql = "DROP TABLE customers"
 # mycursor.execute(sql)
 
+# PDF Drive
 
 # File Handling
 # myFile = open("filename", mode='r', 'a', 'w','x', encoding='t','b')
@@ -1134,7 +1141,7 @@ num = 6
 # with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 #     print(myFile.read())
 
-# import os
+import os
 # if os.path.exists("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html"):
 # 	with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 # 		print(myFile.read())
