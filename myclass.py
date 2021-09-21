@@ -94,7 +94,7 @@
 
 # import turtle
 # ninja = turtle.Turtle()
-# ninja.speed(10)
+# ninja.speed(3)
 # for i in range(180):    
 #     ninja.forward(100)    
 #     ninja.right(30)    
@@ -112,3 +112,18 @@
 # print(help(os.path))
 # p = os.path.join(os.getcwd(), 'oloniaye.py')
 # print(p)
+
+# first = input("ENTER YOUR NAME>>")
+# second =first.lower()
+# print(second)
+# print(second[0:2])
+
+
+
+
+
+
+
+
+
+

@@ -317,9 +317,9 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # print(" ".join(value))
 
 # # Capitalize() function
-comment = """commented that This is a python class. it was started 
-          last week and still continue through
-          this week. the number of people in this class is  """
+# comment = """commented that This is a python class. it was started 
+#           last week and still continue through
+#           this week. the number of people in this class is  """
 # print(name.capitalize())
 # print(comment.capitalize())
 # print(comment.title())
@@ -341,8 +341,8 @@ comment = """commented that This is a python class. it was started
 # print(val)
 
 # Concatination
-name = "paul"
-num = 6
+# name = "paul"
+# num = 6
 
 
 
@@ -367,9 +367,9 @@ num = 6
 
 # List: is a collection which is ordered and changeable.
 #  A list is created with a square bracket [] or list() constructor.
-my_list = ["Shade", "energy", "magnet", "Charse", "energy"]
-my_list2 = list((12, 14, "Sunday", "Charse", True, False, 5.08))
-my_list3 = [1, 45, 54, 23, 67, 78, 46]
+# my_list = ["Shade", "energy", "magnet", "Charse", "energy"]
+# my_list2 = list((12, 14, "Sunday", "Charse", True, False, 5.08))
+# my_list3 = [1, 45, 54, 23, 67, 78, 46]
 
 # print(my_list2)
 # print(my_list[3])
@@ -476,10 +476,10 @@ my_list3 = [1, 45, 54, 23, 67, 78, 46]
 # print(name)
 
 # Unpacking values of a tuple
-# item = ("Yam", "Sunday", "Lagos", 45)
+# item = ("Yam", "Sunday", "Lagos","Yam", "Sunday", "Lagos", 45)
 # (food, name, location, age) = item
 # print(location)
-# (food, *name, location) = item
+# (food, *name,age,mymy,our) = item
 # print(name)
 # (food, *name) = item
 # print(name)
@@ -494,10 +494,10 @@ my_list3 = [1, 45, 54, 23, 67, 78, 46]
 
 # Set: A set is a collection which is unordered and unindexed. It is written using curly bracket
 # i.e {} or set()
-# name = {"Shade", "energy", "magnet", "Charse", "energy", "Charse"}
+# name = {"Shade", "energy", "magnet", "Charse",  "Charse", "energy"}
 # name2 = set((12, 14, "Sunday", "Charse", True, False, 5.08))
 # print(name)
-# print(len(name))*
+# print(len(name))
 
 # print(type(name2))
 # for top in name2:
@@ -513,8 +513,8 @@ my_list3 = [1, 45, 54, 23, 67, 78, 46]
 # print(name)
 # name.update(("mango", "apple", "leave"))
 # print(name)
-# name2.remove("Charse")
-# print(name2)
+# name.remove("Charse")
+# print(name)
 # name2.discard("Charse")
 # print(name2)
 # name.pop()
@@ -534,7 +534,7 @@ my_list3 = [1, 45, 54, 23, 67, 78, 46]
 # set1.update(set2)
 # print(set1)
 # intercept = set1.intersection((set2))
-# # print(intercept)
+# print(intercept)
 # intercept = set1.intersection((set2)).intersection(set3)
 # print(intercept)
 # set1.intersection_update(set2)
@@ -1141,7 +1141,7 @@ my_list3 = [1, 45, 54, 23, 67, 78, 46]
 # with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 #     print(myFile.read())
 
-import os
+# import os
 # if os.path.exists("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html"):
 # 	with open("C:\\Users\\D\\Documents\\DATA SCI_CLASS\\pythonbasicclass\\damilare.html", mode="rt") as myFile:
 # 		print(myFile.read())
@@ -1292,7 +1292,7 @@ import os
 # print(tx)
 
 # Python DataTime
-# import datetime
+import datetime
 # tim = datetime.datetime.now()
 # print(tim)
 # print(tim.year)
@@ -1327,8 +1327,8 @@ import os
 #     tm = datetime.datetime.now()
 #     if tm.strftime("%I") == "12" and tm.strftime("%M") == "26" and tm.strftime("%S") == "00" and tm.strftime("%p") == "PM":
 #         print("it's time for break")
-    # else:
-    #     print("lecture continues")
+#     else:
+#         print("lecture continues")
 
 # import datetime
 # check = int(datetime.datetime.now().strftime("%M")) 
