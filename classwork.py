@@ -552,9 +552,9 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # Dictionary: Dictionary is a collection which is ordered, changeable but does not allows 
 # duplicate and unindexed. Dictionary are used to store data in a key:value pairs.
 # It is written using {key:value} or dict(key=value)
-# product = {'producer':'Toyota', 'model':'venza 2021', 'engine':'6 engine', 'color':'black', 'gear':6, "ok":True}
-# student_record = dict(name="Tony Johnson", level=300, course="mechanical engineering", subjects=10)
-# print(product)
+product = {'producer':'Toyota', 'model':'venza 2021', 'engine':'6 engine', 'color':'black', 'gear':6, "ok":True}
+student_record = dict(name="Tony Johnson", level=300, course="mechanical engineering", subjects=10)
+# print(student_record)
 # print(len(product))
 # print(type(product))
 # print(product["color"])
@@ -563,7 +563,7 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # print(product.values())
 # product["persenger"] = 10
 # print(product)
-# print(product.items())
+# print(student_record.items())
 # print("model" in product)
 # product["color"] = "white"
 # print(product)
@@ -580,16 +580,16 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # del product
 # print(product)
 # print(student_record)
+# for lol in student_record:
+#   print(lol)
 # for x in student_record:
-#   print(x)
-# for x in student_record:
-#   print(student_record[x])
+#     print(student_record[x])
 # for x in student_record.values():
 #       print(x)
 # for x in student_record.keys():
 #   print(x)
 # for x, y in student_record.items():
-#   print(x + "=", y)
+#   print(x , "=", y)
 # new_record = product.copy()
 # print(new_record)
 # new_record = dict(student_record)
@@ -602,9 +602,10 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # std1 = {'name':"Tony Johnson", 'level':300, 'location':'Takie', 'dept':'math'}
 # std2 = {'name':"Micheal Chan", 'level':200, 'location':'General', 'dept':'computer'}
 # student_details2 = {
-#   'std1':std1,
-#   'std2':std2
+#   'FIRST_PERSON':std1,
+#   'SECOND_PERSON':std2
 # }
+# print(student_details2['FIRST_PERSON'])
 # print(student_details["Tony Johnson"])
 # print(student_details["Tony Johnson"]['level'])
 # for record in student_details2.values():
@@ -1224,10 +1225,11 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 
 
 # Python Regular Expression
-# import re
-# text = """the value of a thing will determing the capacity you put to it. the value of 2019 is what you get in 2020
-#         and now you get the value of 2020 in 2021"""
-# val = re.search("^the.*get$", text)
+import re
+text = """the value of a thing will determing the capacity you put to it. the value of 2019 is what you get in 2020
+        and now you get the value of 2020 in 2021"""
+mm ="""the  get"""
+# val = re.search("^the.*get$", mm)
 # if val:
 #     print("We have a match")
 # else:
@@ -1273,7 +1275,7 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # [a-zA-Z] : returns a match for any character alphabetically between a and z lower case or upper case
 # [+] : returns a match for any character in the string
 
-# x = re.findall(r'you', text)
+x = re.findall(r'the', text)
 # print(x)
 # x = re.search(r'you', text)
 # print(x)
@@ -1293,7 +1295,7 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 
 # Python DataTime
 import datetime
-# tim = datetime.datetime.now()
+tim = datetime.datetime.now()
 # print(tim)
 # print(tim.year)
 # print(tim.strftime("%A"))
@@ -1323,26 +1325,36 @@ import datetime
 # %Z : for timezone
 # %j : days number of the year from 001-366
 # %U : return week number of the year from 00-54 
+# import vlc
+# import time
 # while True:
 #     tm = datetime.datetime.now()
-#     if tm.strftime("%I") == "12" and tm.strftime("%M") == "26" and tm.strftime("%S") == "00" and tm.strftime("%p") == "PM":
+#     if tm.strftime("%I") == "11" and tm.strftime("%M") == "24": #and tm.strftime("%S") == "04" and tm.strftime("%p") == "PM":
 #         print("it's time for break")
+#         p = vlc.MediaPlayer("01 Merciful God.mp3")
+#         p.play()
+#         time.sleep(170)
+#         p.stop()
+#         break
 #     else:
-#         print("lecture continues")
+#         print("lecture continues")       
+        
+        
 
-# import datetime
-# check = int(datetime.datetime.now().strftime("%M")) 
-# rang =[]
-# [rang.append(rn) for rn in range(0,60)]
-# while True:
-#     time =datetime.datetime.now() 
-#     nexttime = time.strftime('%M')
-#     if int(nexttime) in rang and check == int(nexttime):   
-#         for i in range(5):
-#             print("i am going for class today")
-#     check = int(nexttime )+ 1
+import datetime
+check = int(datetime.datetime.now().strftime("%M")) 
+rang =[]
+[rang.append(rn) for rn in range(0,60)]
+while True:
+    time =datetime.datetime.now() 
+    nexttime = time.strftime('%M')
+    # print(nexttime)
+    if int(nexttime) in rang and check == int(nexttime):   
+        for i in range(5):
+            print("i am going for class today")
+    check = int(nexttime )+ 1
 
-# hour = hour[0]+str(int(hour[1]) + 2)
+hour = hour[0]+str(int(hour[1]) + 2)
 
 # Python Math class
 # import math
@@ -1356,3 +1368,13 @@ import datetime
 # print(math.floor(5.6732))
 # print(math.pi)
 # print(math.pi * 1000 + 25)
+
+
+# import vlc
+# import time
+
+# p = vlc.MediaPlayer("01 Merciful God.mp3")
+# p.play()
+
+# time.sleep(123)
+# p.stop()
