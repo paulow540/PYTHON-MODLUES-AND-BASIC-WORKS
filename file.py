@@ -165,20 +165,20 @@
 
 
 # code to play all sound in the document directry
-# import os
-# import vlc
-# import time
-# mp3 =[]
-# mp4 =[]
-# # C:\Users\D\Pictures\Screenshots
-# mik = os.path.dirname("C:\\Users\\D\\Documents\\")
-# for root, dirs, files in os.walk(mik):    
-#       for file in files:
-#           if file.endswith(".mp3"):
-#               mp3.append(root+file)
-#           elif file.endswith(".mp4"):
-#                mp4.append(file) 
-# print(mp3)       
+import os
+import vlc
+import time
+mp3 =[]
+mp4 =[]
+# C:\Users\D\Pictures\Screenshots
+mik = os.path.dirname("C:\\Users\\D\\Documents\\")
+for root, dirs, files in os.walk(mik):    
+      for file in files:
+          if file.endswith(".mp3"):
+              mp3.append(root+file)
+          elif file.endswith(".mp4"):
+               mp4.append(file) 
+print(mp4)       
                 # p = vlc.MediaPlayer(file)
                 # p.play()
                 # time.sleep(10)
