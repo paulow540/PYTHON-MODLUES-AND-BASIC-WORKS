@@ -57,28 +57,44 @@
 #     print("No match detected")
  
 
-import re
-class Questions:
-    def __init__(self):
-         self.menu()
+# import re
+# class Questions:
+#     def __init__(self):
+#          self.menu()
 
     
-    def admin(self):
-        seldadmin_name ="opakunbi paul"
+#     def admin(self):
+#         seldadmin_name ="opakunbi paul"
 
-    def student(self):
-        self.studentName= input("Enter ypur name>>")
-        self.studentEmail =input("Enter ypur Email>>")
-        self.approveemail =re.macth([A-Za-z0-9])
-        # query ="InSERT INTO studen_info (name,email) values= %s,%s"
-        # vaqlue =(self.studentName,self.approveEmail)
-
-
-    def menu(self):
-        print("""1. Student for the exam\n2. Admin""")
-        self.choose =input("Enter to choose>>")
-        if self.choose == "1":
-            self.student()
+#     def student(self):
+#         self.studentName= input("Enter ypur name>>")
+#         self.studentEmail =input("Enter ypur Email>>")
+#         self.approveemail =re.macth([A-Za-z0-9])
+#         # query ="InSERT INTO studen_info (name,email) values= %s,%s"
+#         # vaqlue =(self.studentName,self.approveEmail)
 
 
-reg = Questions()
+#     def menu(self):
+#         print("""1. Student for the exam\n2. Admin""")
+#         self.choose =input("Enter to choose>>")
+#         if self.choose == "1":
+#             self.student()
+
+
+# reg = Questions()
+
+
+# for i in range(1,3):
+#     print(i)
+# name =['paul','ola','mike']
+# if 'paul' in name:
+    
+#     print("owabe")
+    
+# else:
+#     print("kowanibe")
+
+# name =['paul','ola','mike']
+# print(name)
+
+

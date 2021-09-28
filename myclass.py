@@ -118,6 +118,14 @@
 # print(second)
 # print(second[0:2])
 
+import re
+email = input("Enter your email")
+regex ="^[a-z0-9]+[@]\w+[a-z]\w+[.]\w{3,3}$"
+varify = re.findall(regex,email)
+if varify:
+    print(email)
+else:
+    print("non")
 
 
 

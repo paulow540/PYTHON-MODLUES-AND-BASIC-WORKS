@@ -441,8 +441,8 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 #         ]
 # answer = ["c", "b", "b", "a", "c"]
 # for que in question:
-#   print(que)
-#   print(option[nt])
+# #   print(que)
+# #   print(option[nt])
 #   ans = input("Your answer > ")
 #   if ans == answer[nt]:
 #       score += 5
@@ -615,7 +615,7 @@ student_record = dict(name="Tony Johnson", level=300, course="mechanical enginee
 
 # Example:
 # student_record = {}
-# for i in range(1,6):
+# for i in range(1,3):
 #   print("Enter information for student ", i)
 #   name = input("Enter your full name >")
 #   level = input("Enter your level>")
@@ -1225,10 +1225,10 @@ student_record = dict(name="Tony Johnson", level=300, course="mechanical enginee
 
 
 # Python Regular Expression
-import re
-text = """the value of a thing will determing the capacity you put to it. the value of 2019 is what you get in 2020
-        and now you get the value of 2020 in 2021"""
-mm ="""the  get"""
+# import re
+# text = """the value of a thing will determing the capacity you put to it. the value of 2019 is what you get in 2020
+#         and now you get the value of 2020 in 2021"""
+# mm ="""the  get"""
 # val = re.search("^the.*get$", mm)
 # if val:
 #     print("We have a match")
@@ -1295,17 +1295,17 @@ x = re.findall(r'the', text)
 
 # Python DataTime
 import datetime
-tim = datetime.datetime.now()
+# tim = datetime.datetime.now()
 # print(tim)
 # print(tim.year)
 # print(tim.strftime("%A"))
 # tm = datetime.datetime(2021, 4, 10)
 # print(tm)
 # print(tm.month)
-# tm = datetime.datetime(2021, 4, 10, 12, 30, 20)
+# tm = datetime.datetime(2021, 4, 10, 12, 30, 20,8)
 # print(tm)
 # strftime() method - use to format datetime object into readable string
-# print(tm.strftime("%B"))
+# print(tm.strftime("%Z"))
 # # strftime format codes
 # %a : returns weekday in short version eg wed
 # %A : returns weekday in full version eg wednesday
@@ -1325,46 +1325,60 @@ tim = datetime.datetime.now()
 # %Z : for timezone
 # %j : days number of the year from 001-366
 # %U : return week number of the year from 00-54 
-# import vlc
-# import time
+import vlc
+import time
+# # print(help(vlc.AudioSetVolumeCb))
+# # print(help(vlc.MediaPlayer))
+
 # while True:
+#     time.sleep(5)
 #     tm = datetime.datetime.now()
-#     if tm.strftime("%I") == "11" and tm.strftime("%M") == "24": #and tm.strftime("%S") == "04" and tm.strftime("%p") == "PM":
+#     if tm.strftime("%I") == "9" or tm.strftime("%M") == "56" or tm.strftime("%S") == "04" and tm.strftime("%p") == "AM":
+#         # if tm.strftime("%M") == "51":  
 #         print("it's time for break")
-#         p = vlc.MediaPlayer("01 Merciful God.mp3")
-#         p.play()
-#         time.sleep(170)
-#         p.stop()
 #         break
+#         #/'' p = vlc.MediaPlayer("01 Merciful God.mp3")
+#         # p.play()
+#         # time.sleep(170)
+#         # p.stop()
+#         # break
 #     else:
-#         print("lecture continues")       
+#         print("lecture continues") 
+        # p = vlc.MediaPlayer("01 Merciful God.mp3")
+        # p.play()
+        # time.sleep(170)
+        # p.stop()
+        # break      
         
         
 
-import datetime
-check = int(datetime.datetime.now().strftime("%M")) 
-rang =[]
-[rang.append(rn) for rn in range(0,60)]
-while True:
-    time =datetime.datetime.now() 
-    nexttime = time.strftime('%M')
-    # print(nexttime)
-    if int(nexttime) in rang and check == int(nexttime):   
-        for i in range(5):
-            print("i am going for class today")
-    check = int(nexttime )+ 1
+# import datetime
+# check = int(datetime.datetime.now().strftime("%M")) 
+# # print(check)
+# rang =[]
+# [rang.append(rn) for rn in range(0,60)]
+# while True:
+#     time =datetime.datetime.now() 
+#     nexttime = time.strftime('%M')
+#     # print(nexttime)
+#     if int(nexttime) in rang and check == int(nexttime):   
+#         for i in range(1):
+#             print("i am going for class today")
+#     check = int(nexttime )+ 1
 
-hour = hour[0]+str(int(hour[1]) + 2)
+# hour = hour[0]+str(int(hour[1]) + 2)
+# print(hour)
 
 # Python Math class
 # import math
+# print(help(math.ceil))
 # l = [2, 4, 5, 7, 3]
 # print(min(l))
 # print(max(l))
 # print(abs(-5.34))
-# print(pow(5, 3))
+# print(pow(3, 3))
 # print(math.sqrt(9))
-# print(math.ceil(6.3492))
+# print(math.ceil(8.3492))
 # print(math.floor(5.6732))
 # print(math.pi)
 # print(math.pi * 1000 + 25)
@@ -1378,3 +1392,89 @@ hour = hour[0]+str(int(hour[1]) + 2)
 
 # time.sleep(123)
 # p.stop()
+
+
+
+# import re
+# regex ="^[a-z0-9]+[@]\w+[.]\w{3,3}$"
+# email = input("Enter your Email>>")
+# verify = re.findall(regex, email)
+# if verify:
+#   print(email)
+# else:
+#   print("noting")
+
+
+
+# working with openCV
+# installing using Anaconda 
+# conda install -c conda-forge opencv
+
+# install on windows
+# pip install opencv-python
+
+
+# cv2.imread(path, flag)
+
+# import cv2
+# img =cv2.imread("name.jpg"or"name.png",1)
+# to display the image
+# cv2.imshow('imagename', img)
+# cv2.waitkey()
+# cv2.destroyAllWindows()
+
+
+
+# inwrite function in openCV
+# cv2.inwrite(filename, image)
+# img=cv2.imread(r'C:Users\p\nammn.jpeg', img )
+# print("image writeen sucess?: ", status)
+
+
+# ACCESS PIXEL VALUES AND MODIFY THEM
+# import numpy as np
+# import cv2 as cv
+# img = cv.imread(r 'C\Users\....\dog.jpeg' )
+# px = img[100,100]
+# print(px)
+# acess color of the pixel
+# blue =img[100,100,0]
+# print(blue)
+
+# img[100,100] =[255,255,255]
+# print(img[100,100])
+
+# img.item(10,10,2)
+# Modify the red value
+# img.itemset((10,10,2),100)
+# img.item(10,10,2)
+
+# Access the image properties
+# print(img.shape)
+# print(img.size)
+
+# to check the dtype of the img
+# print(img.dtype)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
