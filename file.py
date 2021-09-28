@@ -55,7 +55,7 @@
 
 
 # import os
-# os.remove('newfile.txt') raise error if not exist
+# os.remove('newfile.txt') #raise error if not exist
 # if os.path.exists('newfile.txt'):
 #   os.remove('newfile.txt')
 #   print("file deleted successfully")
@@ -141,3 +141,45 @@
 
 
 
+
+
+# pip install playsound
+# import os
+# with open
+# import playsound from playsound
+# playsound("01 Merciful God.mp3")
+
+
+# wavfile =input("Enter a wav filename: ")
+# playsound(wavfile)
+
+# mp3file =input('Enter a mp3 filename: ')
+# playsound(mp3file)
+
+# how to insert sound in python
+# import winsound
+# winsound.PlaySound('sound.wav', winsound.SND_FILENAME)
+
+# from playsound import playsound
+# playsound('audio_file_place/file name')
+
+
+# code to play all sound in the document directry
+# import os
+# import vlc
+# import time
+# mp3 =[]
+# mp4 =[]
+# # C:\Users\D\Pictures\Screenshots
+# mik = os.path.dirname("C:\\Users\\D\\Documents\\")
+# for root, dirs, files in os.walk(mik):    
+#       for file in files:
+#           if file.endswith(".mp3"):
+#               mp3.append(root+file)
+#           elif file.endswith(".mp4"):
+#                mp4.append(file) 
+# print(mp3)       
+                # p = vlc.MediaPlayer(file)
+                # p.play()
+                # time.sleep(10)
+                # p.stop()
