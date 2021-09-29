@@ -100,4 +100,89 @@ import time
 # print("_________________________________")
 
 
-    
+    # if statement
+
+# name = "paul"
+# age = [12,13,14,15]
+# if 12 not in age:
+#     print(name)
+# elif age == age:
+#     if 12 not in age:
+#         print("12 is not in age")
+#     else:
+#         print("welcom")
+# else:
+#     print("none of the above")
+
+
+
+phone = input("Enter your percentage of your phone here>")
+nepa = False
+light = True
+gen = "have petrol"
+
+if phone <= "20" or phone <= "30":    
+    if nepa == True:
+        if light == False:
+            print("i will off my phone") 
+        elif light == True:
+            print("i will change my phone")
+        else:
+            print("i will sleep")
+
+    elif nepa != False:
+        if gen == "have petrol":
+            print("i will on Genetator and charge my phone") 
+        elif gen != "have petrol":
+            print("i will go and buy petrol and on the generator")
+        else:
+            print("i don't have money and i will go and watch man-u football")
+    else:
+        print("Nigeria is  a good country")
+
+elif phone > "30" and phone <= "70":
+    if nepa == False:
+        if light != False:
+            print("i will off my phone") 
+        elif light == False:
+            print("i will change my phone")
+        else:
+            print("i will sleep")
+
+    elif nepa != False:
+        if gen == "have petrol":
+            print("i will on Genetator and charge my phone") 
+        elif gen != "have petrol":
+            print("i will go and buy petrol and on the generator")
+        else:
+            print("i don't have money and i will go and watch man-u football")
+    else:
+        print("Nigeria is not a good country")
+
+else:
+    print("I will buy new phone")
+
+
+# name ="paul"
+# age =[10,12,13,14]
+# if 12 in age:
+#     print(name)
+# else:
+#     print("paul is not in name")
+
+# phone = "20"
+# light =True
+# if (light !=True )and (phone == "30"):
+#     print("i will not charge my phone")
+# elif (light == True) or (phone == "40"):
+#     print("i will charge my phone")
+# else:
+#     print("i will off my phone")
+
+
+
+
+
+
+
+

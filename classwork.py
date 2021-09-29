@@ -552,8 +552,8 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # Dictionary: Dictionary is a collection which is ordered, changeable but does not allows 
 # duplicate and unindexed. Dictionary are used to store data in a key:value pairs.
 # It is written using {key:value} or dict(key=value)
-product = {'producer':'Toyota', 'model':'venza 2021', 'engine':'6 engine', 'color':'black', 'gear':6, "ok":True}
-student_record = dict(name="Tony Johnson", level=300, course="mechanical engineering", subjects=10)
+# product = {'producer':'Toyota', 'model':'venza 2021', 'engine':'6 engine', 'color':'black', 'gear':6, "ok":True}
+# student_record = dict(name="Tony Johnson", level=300, course="mechanical engineering", subjects=10)
 # print(student_record)
 # print(len(product))
 # print(type(product))
@@ -1325,8 +1325,8 @@ import datetime
 # %Z : for timezone
 # %j : days number of the year from 001-366
 # %U : return week number of the year from 00-54 
-import vlc
-import time
+# import vlc
+# import time
 # # print(help(vlc.AudioSetVolumeCb))
 # # print(help(vlc.MediaPlayer))
 
