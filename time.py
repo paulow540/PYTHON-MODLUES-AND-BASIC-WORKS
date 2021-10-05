@@ -116,51 +116,51 @@ import time
 
 
 
-phone = input("Enter your percentage of your phone here>")
-nepa = False
-light = True
-gen = "have petrol"
+# phone = input("Enter your percentage of your phone here>")
+# nepa = False
+# light = False
+# gen = "have petrol"
 
-if phone <= "20" or phone <= "30":    
-    if nepa == True:
-        if light == False:
-            print("i will off my phone") 
-        elif light == True:
-            print("i will change my phone")
-        else:
-            print("i will sleep")
+# if phone <= "20" or phone <= "30":    
+#     if nepa == True:
+#         if light == False:
+#             print("i will off my phone") 
+#         elif light == True:
+#             print("i will change my phone")
+#         else:
+#             print("i will sleep")
 
-    elif nepa != False:
-        if gen == "have petrol":
-            print("i will on Genetator and charge my phone") 
-        elif gen != "have petrol":
-            print("i will go and buy petrol and on the generator")
-        else:
-            print("i don't have money and i will go and watch man-u football")
-    else:
-        print("Nigeria is  a good country")
+#     elif nepa != False:
+#         if gen == "have petrol":
+#             print("i will on Genetator and charge my phone") 
+#         elif gen != "have petrol":
+#             print("i will go and buy petrol and on the generator")
+#         else:
+#             print("i don't have money and i will go and watch man-u football")
+#     else:
+#         print("Nigeria is  a good country")
 
-elif phone > "30" and phone <= "70":
-    if nepa == False:
-        if light != False:
-            print("i will off my phone") 
-        elif light == False:
-            print("i will change my phone")
-        else:
-            print("i will sleep")
+# elif phone > "30" and phone <= "70":
+#     if nepa == False:
+#         if light != False:
+#             print("i will off my phone") 
+#         elif light == False:
+#             print("i will change my phone")
+#         else:
+#             print("i will sleep")
 
-    elif nepa != False:
-        if gen == "have petrol":
-            print("i will on Genetator and charge my phone") 
-        elif gen != "have petrol":
-            print("i will go and buy petrol and on the generator")
-        else:
-            print("i don't have money and i will go and watch man-u football")
-    else:
-        print("Nigeria is not a good country")
+#     elif nepa != False:
+#         if gen == "have petrol":
+#             print("i will on Genetator and charge my phone") 
+#         elif gen != "have petrol":
+#             print("i will go and buy petrol and on the generator")
+#         else:
+#             print("i don't have money and i will go and watch man-u football")
+#     else:
+#         print("Nigeria is not a good country")
 
-else:
-    print("I will buy new phone")
+# else:
+#     print("I will buy new phone")
 
 
 # name ="paul"
@@ -180,9 +180,80 @@ else:
 #     print("i will off my phone")
 
 
+# item = ["Yam", "Sunday", "Lagos","Yam", "Sunday", "Lagos", 45]
+# (food, name, location, age,*mike) = item
+# print(location)
+
+# age = 0
+# while age < 10:
+#     print(age)
+#     age+=1
+
+# finding_number = 808764556357356638776447474578
+# while True:
+#     ournumber =int(input("Enter your number to stop the loop>>"))
+#     if ournumber == finding_number:
+#         break
+#     else:
+#         continue
+
+
+# age = [1,2,3,4,5,6,7,8,9]
+# for i in age:    
+#     if i == 5:        
+#         break
+#     else:
+#         print(i)
+#         continue
+
+
+# customer = []
+# all_customer = {}
+# i = 1
+# while i<=10: 
+#   info = ['firstName', 'lastName', 'age', 'phone']
+#   print("Enter customer "+ str(i) +" infomation")
+#   con = input("press 'enter' to continue or 'end' to quit")
+#   if con == 'end':
+#           break
+#   for fo in info:
+#       inf = input(fo+": ")
+#       customer.append(inf)
+#   all_customer["customer"+str(i)] = customer
+#   i +=1
+# else:
+#   for key, value in all_customer.items():
+#     for val in value:
+#         pass
+
+# print(all_customer)
+
+# tion ={'customer1': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer2': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer3': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer4': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer5': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer6': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer7': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer8': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer9': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl'], 'customer10': ['opakunbi', 'mike', '12', '9645555', 'mike', 'jndfhjfr', '2323', 'dffgfg', 'jwhhjff', 'fgygd', '344', '765478', 'gvsdfhgf\\', 'hfugh', 'ygsduhfh', 'yugfuhuih', 'ggkdfygusrgf', 'ygfyguhf', 'gyteuurhr', 'tfywfgruw', 'gtfdgh', 'ygtuherg', ' uhyigti', 'guruhrfr', 'sdfghg', 'ygfghfg', 'ygruhuhuigf', 'uyuhy;hjg', 'gsyorgfuh', 'uu7tyuehytiy', 'gtyrgtuhutyy', 'ffthbhjblgbg', 'gfghgh', 'figfryfgyugh', 'gterugt', 'ytgwertyut', 'gfygfyu', 'fgygysgf', 'yugfuuhg', 'hfuhsl']}
+# for key, value in tion.items():
+#     for val in value:
+#         print(val)
 
 
 
+# number = 0
+# while number < 10:
+#     print(number)
+#     number+=1
 
 
+# number = 7
+# while True:
+#     mynum =int(input("Enter number>>"))
+#     if number == mynum:
+#         break
+#     else:
+#         continue
 
+
+# number = (2,9,1)
+# while True:
+#     bet = int(input("PLACE YOUR GUESS  "))
+#     if bet in number:
+#         break
+#     else:
+#         continue    

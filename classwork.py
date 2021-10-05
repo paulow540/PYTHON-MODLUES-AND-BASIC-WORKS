@@ -428,29 +428,29 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # [['Shade', 'energy', 'magnet', 'Charse', 'energy'], [12, 14, 'Sunday', 'Charse', True, False, 5.08], ['Favour', 34], 'Tunde', False]
 # print(my_list4[2][1:3])
 
-# nt = 0
-# score = 0
-# question = ["Where is the capital of Nigeria", "Number of states in Nigeria", "Number of LGAs in Nigeria",
-#             "Who is INEC chairman", "How many political parties participated in 2019 presidential election"]
-# option = [
-#            "(a) Lagos \n (b) Kano \n (c) Abuja",
-#            "(a) 37 \n (b) 36 \n (c) 44",
-#            "(a) 768 \n (b) 774 \n (c) 780",
-#            "(a) Prof. Mamhood Yakubu \n (b) Prof. Mohamed Yakub \n (c) Muhamad Yakubu",
-#            "(a) 18 \n (b) 77 \n (c) 73"
-#         ]
-# answer = ["c", "b", "b", "a", "c"]
-# for que in question:
-# #   print(que)
-# #   print(option[nt])
-#   ans = input("Your answer > ")
-#   if ans == answer[nt]:
-#       score += 5
-#       print("you are correct")    
-#   else:
-#       print("you are wrong")
-#   nt +=1
-# print("you total score is ", score)
+nt = 0
+score = 0
+question = ["Where is the capital of Nigeria", "Number of states in Nigeria", "Number of LGAs in Nigeria",
+            "Who is INEC chairman", "How many political parties participated in 2019 presidential election"]
+option = [
+           "(a) Lagos \n (b) Kano \n (c) Abuja",
+           "(a) 37 \n (b) 36 \n (c) 44",
+           "(a) 768 \n (b) 774 \n (c) 780",
+           "(a) Prof. Mamhood Yakubu \n (b) Prof. Mohamed Yakub \n (c) Muhamad Yakubu",
+           "(a) 18 \n (b) 77 \n (c) 73"
+        ]
+answer = ["c", "b", "b", "a", "c"]
+for que in question:
+  print(que)
+  print(option[nt])
+  ans = input("Your answer > ")
+  if ans == answer[nt]:
+      score += 5
+      print("you are correct")    
+  else:
+      print("you are wrong")
+  nt +=1
+print("you total score is ", score)
 
 # Tuple: A tuple is a collection that is ordered but not changeable. A tuple is created using
 #  braces i.e () or tuple()
@@ -1275,7 +1275,7 @@ name = 'sunday'   #== ['s', 'u', 'n', 'd', 'a', 'y']
 # [a-zA-Z] : returns a match for any character alphabetically between a and z lower case or upper case
 # [+] : returns a match for any character in the string
 
-x = re.findall(r'the', text)
+# x = re.findall(r'the', text)
 # print(x)
 # x = re.search(r'you', text)
 # print(x)
@@ -1294,7 +1294,7 @@ x = re.findall(r'the', text)
 # print(tx)
 
 # Python DataTime
-import datetime
+# import datetime
 # tim = datetime.datetime.now()
 # print(tim)
 # print(tim.year)
