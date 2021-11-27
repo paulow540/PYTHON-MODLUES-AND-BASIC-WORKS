@@ -12,9 +12,3 @@ And this coding is for python basic class and more of it is written in OOP
 5. Set types: set, frozenset
 6. Boolean types: bool (True, False)
 7. Binary types: bytes, bytearray, memoryview
-
-
-
-
-
-
