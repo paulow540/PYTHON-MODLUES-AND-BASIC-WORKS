@@ -1,5 +1,5 @@
 # PYTHON-MODLUES-AND-BASIC-WORKS
-This show some basic python codes and importing modlues 
+This show some basic python codes and importing modlues for beginers 
 
 And this coding is for python basic class and more of it is written in OOP
 ##Variable 
